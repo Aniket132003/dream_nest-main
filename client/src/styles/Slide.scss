@@ -1,0 +1,39 @@
+.slide {
+  width: 100%;
+  height: 80vh;
+  //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  //  url("../../public/assets/slide.jpg");
+  //background-position: center top;
+  //background-size: cover;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, .3);
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+}
+
+.content h1 {
+    padding: 40px 20px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.content{
+  display: flex;
+  position: absolute;
+  top: 20%;
+  justify-content: center;
+  width: 100%;
+  height: 85vh;
+}
+
+video{
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+}
+
